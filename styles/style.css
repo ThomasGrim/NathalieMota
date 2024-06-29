@@ -101,7 +101,7 @@ h1 {
 
 /* Style du conteneur de l'image dans la lightbox */
 .lightbox__image {
-  height: auto;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,6 +285,20 @@ h1 {
   width: 100%;
   height: auto;
 }
+
+.img-infos-lightbox {
+  color: white;
+  display: flex;
+  
+  align-items: center;
+  
+  justify-content: center;
+    gap: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+  
+}
+
 
 .rangee .img-hover .img-infos {
   display: flex;
@@ -710,9 +724,7 @@ nav li:hover {
     width: 100%;
   }
 
-  .filtres__taxonomie form {
-    width: 47.5%;
-  }
+  
 
   .filtres__taxonomie form:first-child {
     padding-right: 5%;
@@ -852,6 +864,19 @@ nav li:hover {
 @media (max-width: 800px) {
   .interaction-photo__navigation {
       display: none !important;
+  }
+  .page-photo{
+    margin-top: 20px;
+  }
+  .colonnes{
+    display: block;
+    width: 100%;
+  }
+  .colonne{
+    width: 100%;
+  }
+  #wpadminbar{
+    position: fixed;
   }
 }
 
